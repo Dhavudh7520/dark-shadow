@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <buttom class="btn  btn-primary" onclick="addcontent">+</buttom>
+    <div id=mydiv>
+
+    </div>
+    <script>
+        let cpount = 0
+        function addcontent() {
+            count += 1
+            let para = document.createelement( "p" )
+            para.innerText = `user clicked the button ${ count } times`
+            doccument.getElementById( "mydiv" ).appendchild( para )
+
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
